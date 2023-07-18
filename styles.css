@@ -1,0 +1,184 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-bar{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.title-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.title-section img{
+    width: 40%;
+}
+
+.nav-title{
+    width: 55%;
+    font-size: 2rem;
+
+}
+.G{
+    color: rgb(255, 66, 165);
+}
+
+.menu-section{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-bottom: 40px;
+
+}
+.nav-anchor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-section a{
+    text-decoration: none;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.nav-btn{
+    width: 260px;
+    height: 60px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+/* Banner section start */
+.banner-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.banner-text-box{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 50%;
+    height: 400px;
+    background-image: url('./images/Group\ 14.png');
+    object-fit: cover;
+    padding-left: 150px;
+
+}
+
+.banner-title{
+    color: #0B0223;
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+
+.goat{
+    gap: 0px;
+    font-size: 6rem;
+    font-weight: bolder;
+    color: rgb(249, 72, 124);
+}
+
+.banner-btn-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: azure;
+
+}
+
+.banner-btn1{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(255, 66, 165);
+    color: azure;
+}
+
+.banner-btn2{
+    width: 115px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: #4EC5F7;
+    color: azure;
+}
+.banner-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.banner-img-box img{
+    width: 80%;
+}
+
+/* banner end */
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px)
+{ 
+    .nav-bar, .title-section, .nav-anchor{
+        flex-direction: column;
+    }
+
+    .banner-section{
+        flex-direction: column-reverse;
+        gap: 30px;
+        
+    }
+    .nav-bar{
+        margin: 20px;
+
+    }
+
+    .title-section{
+        width: 60%;
+        margin-bottom: 0px;
+    }
+
+    .title-section img{
+        width: 60%;
+
+    }
+    .banner-img-box{
+        width: 100%;
+    }
+
+    .banner-text-box{
+        align-items: center;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+}
