@@ -242,11 +242,135 @@
 
 }
 
+/* .play-instantly{
+    margin-top: 40px;
+    border: 2px solid skyblue;
+    max-width: 1255px;
+    margin: 0 auto;
+}
+
+.p-i-container{
+    margin: 0px;
+    border: 2px solid gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    height: 480px;
+}
+
+.p-i-text-container{
+    width: 50%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.p-i-text-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.p-i-img-container{
+    border: 3px solid red;
+    width: 50%;
+}
+.p-i-img-box{
+    border: 2px solid hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.p-i-image img{
+    width: 100%;
+} */
 
 
 
 
 
+.play-instantly{
+    margin-top: 40px;
+    border: 2px solid skyblue;
+    max-width: 1255px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.p-i-container{
+    margin: 0px;
+    border: 2px solid gold;
+    display: flex;
+    align-items: start;
+    height: 580px;
+}
+
+.p-i-text-container{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-i-text-box{
+    width: 350px;
+    height: 295px;
+    border: 2px solid seagreen;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: right;
+
+}
+
+.p-i-title{
+    margin: 0;
+    font-size: 3rem;
+}
+
+.p-i-img-container{
+    border: 2px solid rgb(12, 187, 187);
+}
+
+.p-i-img-box{
+    position: relative;
+    margin-top: 0px;
+    width: 50%;
+    border: 2px solid red;
+}
+
+.p-i-img-box img{
+    width: 100%;
+}
+
+
+.p-i-img-box{
+    position: relative;
+}
+
+.raletive-img{
+    width: 80%;
+    position: absolute;
+    bottom: -100px;
+    left: -150px;
+}
+.raletive-img img{
+    width: 80%;
+}
 
 
 
@@ -259,7 +383,7 @@
 
 @media screen and (max-width: 576px)
 { 
-    .nav-bar,  .title-section, .nav-anchor, .we-are-gamer, .funny-videos-textbox{
+    .nav-bar,  .title-section, .nav-anchor, .we-are-gamer, .funny-videos-textbox, {
         flex-direction: column;
     }
 
@@ -321,11 +445,11 @@
     }
 
     .f-v-title{
-        font-size: 1.8rem;
+        font-size: 1.65rem;
     }
 
     .f-v-description{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .funny-videos-imgbox{
